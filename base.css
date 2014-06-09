@@ -1,0 +1,10 @@
+body {
+    width: 90%;
+    margin: 2em auto;
+    background-image: url(./bg.jpg);
+}
+
+body > .tab.segment {
+    padding-bottom: 0em;
+    margin-bottom: 2em;
+}
