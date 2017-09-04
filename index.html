@@ -3,23 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Tokyo Schedule</title>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/css/semantic.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/css/semantic.min.css"/>
   <link rel="stylesheet" href="./base.css"/>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/javascript/semantic.min.js"></script>
-  <script src="http://patrickgawron.com/wp/wp-content/uploads/2013/11/jquery.address.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/javascript/semantic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js"></script>
 
 </head>
 <body>
   <script type="text/javascript">
-  $( document ).ready(function() {
+    $( document ).ready(function() {
+      // initialize both popups inline
+      $('.menu .item').tab();
 
-  // initialize both popups inline
-  $('.menu .item')
-  .tab()
-  ;
-
-  });
+    });
   </script>
 
   <div class="tab segment">
